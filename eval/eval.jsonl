@@ -1,0 +1,10 @@
+{"question": "什么是RAG？", "gold_source": "current_doc", "answer_key_points": ["检索增强生成", "外部知识库"]}
+{"question": "RAG的核心思想是什么？", "gold_source": "current_doc", "answer_key_points": ["先检索", "再生成", "上下文"]}
+{"question": "RAG系统的基本流程包括哪四个步骤？", "gold_source": "current_doc", "answer_key_points": ["采集清洗", "切分向量化", "向量检索", "生成答案"]}
+{"question": "RAG的主要优势有哪些？", "gold_source": "current_doc", "answer_key_points": ["降低幻觉", "知识更新灵活", "可追溯", "成本可控"]}
+{"question": "chunk太大会带来什么问题？", "gold_source": "current_doc", "answer_key_points": ["多个主题", "检索不精确"]}
+{"question": "chunk太小会带来什么问题？", "gold_source": "current_doc", "answer_key_points": ["丢失完整语义", "影响理解"]}
+{"question": "哪些因素会影响检索效果？", "gold_source": "current_doc", "answer_key_points": ["embedding模型", "top_k", "相似度阈值"]}
+{"question": "什么是空检索兜底机制？", "gold_source": "current_doc", "answer_key_points": ["无法确定", "避免强行作答"]}
+{"question": "为什么RAG项目需要评测？", "gold_source": "current_doc", "answer_key_points": ["固定问题集", "对比实验", "评估效果"]}
+{"question": "一个有展示价值的RAG项目应具备哪些工程化能力？", "gold_source": "current_doc", "answer_key_points": ["代码结构清晰", "参数配置化", "评测机制", "来源展示"]}
